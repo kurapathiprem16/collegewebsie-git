@@ -1,0 +1,77 @@
+@font-face {
+    font-family:lol;
+    src: url(/font/Terranore\ Demo\ Regular.ttf);
+}
+table{
+       border-style:inset;
+       background:linear-gradient(to left,orange,white,green);
+       align-items: center;
+       justify-content: center;
+       padding: 60px;
+       margin-left: 35%;
+       border-width: 40px;
+       border-color:skyblue;
+       border-radius: 30%;
+       animation:bo;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       animation-delay: 2s;
+       animation-timing-function: ease-in;
+
+}
+body{
+    background-color:black;
+}
+    
+lable{
+    color:navy;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+@keyframes bo{
+       0%{
+            border-top-color: blue;
+            box-shadow: 0px 0px 15px blue;
+
+       }
+       25%{
+        border-left-color:red;
+        box-shadow: 0px 0px 15px red;
+       }
+       50%{
+           border-bottom-color:  blue;
+           box-shadow: 0px 0px 15px blue;
+       }
+    75%{
+          border-right-color:red;
+          box-shadow: 0px 0px 15px white;
+
+    }
+}
+.b3{
+    text-align: center;
+    position:relative;
+    left: 100%;
+    font-size: medium;
+    background-color: transparent;
+    border-radius: 20%;
+    width: 100px;
+    
+    
+}
+.b3:hover{
+        transform: scale3d(1.5,1.5,1.5);
+        background-color: violet;
+        border-color: transparent;
+
+
+}
+h1{
+    
+    color:orange;
+    margin-left:45%;
+    font-family: lol;
+    
+
+}

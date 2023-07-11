@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#logo{
+     border-style:groove;
+     border-width: 20px;
+     position: relative;
+     left: 43%;
+     border-start-start-radius: 20% ;
+     border-bottom-right-radius: 20%;
+     border-color:blue;      
+     box-shadow: 0px 0px 30px blue;
+     animation: logo;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     
+    
+     
+
+
+}
+
+@keyframes logo{
+    0%{ 
+        animation-delay: 5s;
+        border-color: orange;
+        box-shadow: 0px 0px 30px orange;
+        
+    }
+    50%{
+        animation-delay: 5s;
+        border-color: white;
+        box-shadow: 0px 0px 30px white;
+        
+    }
+    100%{
+        
+        
+        animation-delay: 5s;
+        border-color:green;
+        box-shadow: 0px 0px 30px green;
+        
+    }
+
+}
+#about{
+    text-decoration:wavy;
+    color:black;
+    cursor: pointer;
+    left: 48%;
+    
+    position:relative;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 40px;
+    text-transform:uppercase;
+    border-style: dotted;
+    border-radius: 30%;
+    border-color: brown;
+    margin-top: 60% ;
+    transition: 1s;
+}
+
+.li1{
+     list-style: none;
+    color: brown;
+
+}
+.li2{
+       list-style:none;
+       position: relative;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bolder;
+
+       left:70%;
+       bottom:80px;
+       text-decoration:underline red;
+
+
+}
+.social{
+    position: relative;
+       left:70%;
+       bottom:80px;
+    
+}
+#facebook{
+    background-color:transparents;
+    border-radius: 60%
+}
+#facebook:hover{
+     background-color: blue;
+     cursor: pointer;
+      transform:scale3d(1.5,1.5,1.5);
+}
+#twitter{
+    background-color:transparents;
+    border-radius: 34%
+}
+#twitter:hover{
+    background-color: skyblue;
+    cursor: pointer;
+     transform:scale3d(1.5,1.5,1.5);   
+}
+#insta{
+    background-color:transparents;
+    border-radius: 33%
+}
+#insta:hover{
+    background:linear-gradient(to left, purple,blue,red,yellow);
+    cursor: pointer;
+     transform:scale3d(1.5,1.5,1.5); 
+}
+#youtube{
+  background-color:transparents;
+  border-radius:50%;  
+  
+   
+    
+    
+}
+#youtube:hover{
+    background-color:red;
+
+    
+    cursor: pointer;
+     transform:scale3d(1.5,1.5,1.5);   
+}
+.menubar{
+    
+    border-radius: 50%;
+    background:linear-gradient(orange,white,green);
+    text-align: center;
+    padding: 30px;
+    
+}
+.menubar ul{
+     display: inline-flex;
+     list-style: none;
+     align-items: center;
+     justify-content: center;
+     
+     
+}
+.menubar ul li{
+     margin-left: 60px;
+    
+
+}
+.menubar ul li a{
+    text-decoration:none;
+    color: orange;
+}
+#ff,.menubar ul li a:hover{
+    background-color: black;
+}
+.submenu{
+     display: none;
+     position: relative;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background:white;
+
+    margin-top: 1px;
+    margin-right:-10px;
+    box-shadow: 1.5px 1.5px 1.5px black;
+    
+    z-index: 10;
+    text-align: center;
+
+}
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin: 5px;
+
+
+    
+    
+}
+.menubar ul li:hover .submenu ul li{
+        margin:6px;
+        color: orange;
+        border-bottom-style:dashed;
+        border-color: brown;
+        background: transparent;
+        border-radius: 0px;
+        text-align: left;
+}
+.menubar ul li:hover .submenu ul li:hover{
+    background: black;
+
+}
+.submenusub{
+    
+    
+    display: none;
+    
+    
+}
+.btech:hover .submenusub{
+    background-color:white;
+    width: 300px;
+    position: absolute;
+    display: block;
+    margin-top: -15px;
+    margin-left: 55px;
+    box-shadow: 1.5px 1.5px 1.5px black;
+    
+}
+
+.btech:hover .submenusub ul li{
+    background-color: black;
+}
+
+
+
+.reg{
+     border-style: groove;
+     background-color: black;
+     color: crimson;
+     border-width: 10px;
+     display: inline-block;
+     position: relative;
+     left:30%;
+     
+}
+#nn{
+        
+        
+        text-align: center;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#b1,#b2{
+        background: transparent;
+        color: yellow;
+     border-style: double;
+     border-color: white;
+     border-radius: 20px;
+
+}
+#b1:hover,#b2:hover{
+      background-color:violet;
+      border-color: whitesmoke;
+      cursor: pointer;
+      transform: scale3d(1.5,1.5,1.5);
+      box-shadow: 0px 0px 25px black,0px 0px 25px black,0px 0px 25px black;
+      border-style: hidden;
+}
+#ret{
+    position: relative;
+    left:45%;
+    animation-name: ret;
+    animation-duration:10s;
+    display:inline;
+    animation-iteration-count: infinite;
+    color:wheat;
+    
+}
+@keyframes ret{
+      0%{
+       text-shadow: 0px 0px 15px orange,0px 0px 15px orange,0px 0px 15px orange;
+    
+      }
+      25%{
+       text-shadow: 0px 0px 15px white,0px 0px 15px white,0px 0px 15px white;
+      }
+      50%{
+        text-shadow: 0px 0px 15px green,0px 0px 15px green,0px 0px 15px green;
+      }
+
+}  
+.ra{
+    background: linear-gradient(orange,white,green);
+    font-family: 'Times New Roman', Times, serif;
+    display:inline-block;
+
+  font-weight: bolder;
+  color:blue;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  position: relative;
+  width:19%;
+  margin-right: 10px;
+  
+  
+
+
+}
+#p:focus{
+       border-style: double;
+       box-shadow: 0px 0px 15px red;
+}
+#e:focus{
+    border-style: double;
+    box-shadow: 0px 0px 15px red;
+}
+.wi ul{
+    background-color:burlywood;
+
+}
+.fc1{
+    height:200px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: inset;
+    box-shadow: 10px 5px 10px black;
+    
+    display:absolute;
+    
+}
+.fc1:hover{
+     
+     cursor: pointer;
+     box-shadow: 10px 5px 10px  yellow;
+     transition: 2s;
+     
+}
+.wi ul li{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+}
+.wi ul li p{
+    margin-left: 10%;
+    color: yellow;
+    position: relative;
+    text-justify: newspaper;
+
+    
+}
+.ion{
+    color:black;
+    text-decoration: underline;
+    font-weight:bolder;
+}
+#mo{
+    position: relative;
+     left:50%;
+     text-transform: uppercase;
+     color: yellow;
+     animation-name:cam;
+     animation-duration: 5s ;
+     animation-iteration-count: infinite;
+     text-decoration: wavy;
+     
+}
+@keyframes cam{
+    0%{
+     text-shadow: 0px 0px 15px orange,0px 0px 15px orange,0px 0px 15px orange;
+  
+    }
+    25%{
+     text-shadow: 0px 0px 15px white,0px 0px 15px white,0px 0px 15px white;
+    }
+    50%{
+      text-shadow: 0px 0px 15px green,0px 0px 15px green,0px 0px 15px green;
+    }
+
+}  
+
+
